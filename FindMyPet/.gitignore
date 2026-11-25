@@ -1,0 +1,43 @@
+# PHP & Composer
+/vendor/
+composer.phar
+*.log
+*.cache
+
+# Environment & Configuration
+.env
+.env.*
+!.env.example
+
+# Testing & Static Analysis
+.phpunit.result.cache
+/coverage/
+.php-cs-fixer.cache
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+
+# Composer dependencies
+vendor/
+dompdf/dompdf/vendor/
+
+# Environment and sensitive files
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db

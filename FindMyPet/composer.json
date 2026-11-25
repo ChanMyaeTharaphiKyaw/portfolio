@@ -1,0 +1,18 @@
+{
+  "name": "lenovo/cproj",
+  "autoload": {
+    "psr-4": {
+      "Lenovo\\Cproj\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "ChanMyaeTharaphiKyaw",
+      "email": "chanmyaetharaphikyaw2020@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^7.0",
+    "cboden/ratchet": "*"
+  }
+}
